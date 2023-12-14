@@ -1,47 +1,120 @@
 => INSERT SORT
    Tamanho 1000
-   Tempo de execução: 0.002000 segundos
-   Movimentacoes = 251435 , Comparacoes = 249437
+   Tempo de execução: 0.001000 segundos
+   Movimentacoes = 260893 , Comparacoes = 258895
 
 => SELECT SORT
    Tamanho 1000
-   Tempo de execução: 0.000000 segundos
-   Movimentacoes = 9581 , Comparacoes = 5585
+   Tempo de execução: 0.001000 segundos
+   Movimentacoes = 9387 , Comparacoes = 5391
 
 => MERGE SORT
    Tamanho 1000
-   Tempo de execução: 0.002000 segundos
-   Movimentacoes = 13972 , Comparacoes = 19647
+   Tempo de execução: 0.000000 segundos
+   Movimentacoes = 13972 , Comparacoes = 19672
 
 => QUICK SORT
    Tamanho 1000
    Tempo de execução: 0.000000 segundos
-   Movimentacoes = 18612 , Comparacoes = 6204
+   Movimentacoes = 19854 , Comparacoes = 6618
 
 => SELECT SORT
    Tamanho 10000
-   Tempo de execução: 0.113000 segundos
-   Movimentacoes = 116860 , Comparacoes = 76864
+   Tempo de execução: 0.110000 segundos
+   Movimentacoes = 116311 , Comparacoes = 76315
 
 => INSERT SORT
    Tamanho 10000
-   Tempo de execução: 0.150000 segundos
-   Movimentacoes = 25063887 , Comparacoes = 25043889
+   Tempo de execução: 0.143000 segundos
+   Movimentacoes = 24842105 , Comparacoes = 24822107
 
 => MERGE SORT
    Tamanho 10000
-   Tempo de execução: 0.006000 segundos
-   Movimentacoes = 173612 , Comparacoes = 264152
+   Tempo de execução: 0.005000 segundos
+   Movimentacoes = 173612 , Comparacoes = 264065
+
+=> QUICK SORT
+   Tamanho 10000
+   Tempo de execução: 0.002000 segundos
+   Movimentacoes = 260748 , Comparacoes = 86916
+
+=> SELECT SORT
+   Tamanho 100000
+   Tempo de execução: 11.358000 segundos
+   Movimentacoes = 1343155 , Comparacoes = 943159
+
+=> INSERT SORT
+   Tamanho 100000
+   Tempo de execução: 15.144000 segundos
+   Movimentacoes = -1790737166 , Comparacoes = -1790937164
+
+=> MERGE SORT
+   Tamanho 100000
+   Tempo de execução: 0.055000 segundos
+   Movimentacoes = 2068924 , Comparacoes = 3305069
+
+=> QUICK SORT
+   Tamanho 100000
+   Tempo de execução: 0.023000 segundos
+   Movimentacoes = 3418938 , Comparacoes = 1139646
+
+=> SELECT SORT
+   Tamanho 200000
+   Tempo de execução: 53.038000 segundos
+   Movimentacoes = 2744425 , Comparacoes = 1944429
+
+=> INSERT SORT
+   Tamanho 200000
+   Tempo de execução: 64.080000 segundos
+   Movimentacoes = 1405608079 , Comparacoes = 1405208081
+
+=> MERGE SORT
+   Tamanho 200000
+   Tempo de execução: 0.109000 segundos
+   Movimentacoes = 4337852 , Comparacoes = 7010730
+
+=> QUICK SORT
+   Tamanho 200000
+   Tempo de execução: 0.045000 segundos
+   Movimentacoes = 6155943 , Comparacoes = 2051981
+
+=> SELECT SORT
+   Tamanho 1000
+   Tempo de execução: 0.001000 segundos
+   Movimentacoes = 9530 , Comparacoes = 5534
+
+=> INSERT SORT
+   Tamanho 1000
+   Tempo de execução: 0.001000 segundos
+   Movimentacoes = 246958 , Comparacoes = 244960
+
+=> MERGE SORT
+   Tamanho 1000
+   Tempo de execução: 0.001000 segundos
+   Movimentacoes = 13972 , Comparacoes = 19679
+
+=> QUICK SORT
+   Tamanho 1000
+   Tempo de execução: 0.000000 segundos
+   Movimentacoes = 19230 , Comparacoes = 6410
+
+=> SELECT SORT
+   Tamanho 10000
+   Tempo de execução: 0.108000 segundos
+   Movimentacoes = 117389 , Comparacoes = 77393
+
+=> INSERT SORT
+   Tamanho 10000
+   Tempo de execução: 0.143000 segundos
+   Movimentacoes = 24958863 , Comparacoes = 24938865
+
+=> MERGE SORT
+   Tamanho 10000
+   Tempo de execução: 0.004000 segundos
+   Movimentacoes = 173612 , Comparacoes = 263964
 
 => QUICK SORT
    Tamanho 10000
    Tempo de execução: 0.001000 segundos
-   Movimentacoes = 236037 , Comparacoes = 78679
+   Movimentacoes = 261330 , Comparacoes = 87110
 
-=> SELECT SORT
-   Tamanho 100000
-   Tempo de execução: 11.589000 segundos
-   Movimentacoes = 1346966 , Comparacoes = 946970
-
-=> INSERT SORT
-   Tamanho 100000

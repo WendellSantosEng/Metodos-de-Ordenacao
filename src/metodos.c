@@ -30,8 +30,11 @@ void OrdenaSelect(int n, Aluno *vetor, char *caminho_arquivo, FILE *console_outp
     printf("   Tamanho %d\n",n);
     
     if(inverte == 1){
+        quickSort(vetor, 0, n - 1,&comparacao, &movimentacao);
         inverterVetor(vetor,n);
     }
+    comparacao = 0;
+    movimentacao = 0;
     
     start = clock();
 
@@ -91,8 +94,11 @@ void OrdenaInsert(int n, Aluno *vetor, char *caminho_arquivo, FILE *console_outp
     printf("   Tamanho %d\n",n);
 
     if(inverte == 1){
+        quickSort(vetor, 0, n - 1,&comparacao, &movimentacao);
         inverterVetor(vetor,n);
     }
+    comparacao = 0;
+    movimentacao = 0;
 
     start = clock();
 
@@ -155,8 +161,11 @@ void OrdenaQuick(int n, Aluno *vetor, char *caminho_arquivo, FILE *console_outpu
     printf("   Tamanho %d\n",n);
 
     if(inverte == 1){
+        quickSort(vetor, 0, n - 1,&comparacao, &movimentacao);
         inverterVetor(vetor,n);
     }
+    comparacao = 0;
+    movimentacao = 0;
 
     freopen(caminho_arquivo, "a", console_output);
 
@@ -218,8 +227,11 @@ void OrdenaMerge(int n, Aluno *vetor, char *caminho_arquivo, FILE *console_outpu
     printf("   Tamanho %d\n",n);
 
     if(inverte == 1){
+        quickSort(vetor, 0, n - 1,&comparacao, &movimentacao);
         inverterVetor(vetor,n);
     }
+    comparacao = 0;
+    movimentacao = 0;
 
     start = clock();
 
